@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RashmikaN Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="nav-container">
+            <a href="#" class="logo">RN</a>
+            <nav id="main-nav" class="navbar" role="navigation" aria-label="Primary">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#skills">Skills</a>
+                <a href="#project">Project</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <div class="controls">
+                <!-- Hamburger (three-line) and cross icon; toggle visibility with aria-expanded -->
+                <button class="hamburger" id="hamburger" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars" aria-hidden="true"></i>
+                    <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+                </button>
+                <a href="https://github.com/RashmikaN" target="_blank" class="github-btn" aria-label="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/rashmika-nattam/" target="_blank" class="github-btn" aria-label="LinkedIn">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+    <!-- overlay shown when mobile menu is open -->
+    <div id="mobile-overlay" class="overlay" aria-hidden="true"></div>
+    <section id="home">
+        <div class="hero">
+            <div class="hero-inner">
+                <div class="availability">
+                    <span class="dot" aria-hidden="true"></span>
+                    <span>Available for Research &amp; Full-time Opportunities</span>
+                </div>
+
+                <h1 class="hero-title">Rashmika Nattam</h1>
+                <p class="hero-subtitle">Computer Science Graduate &amp; Research Intern</p>
+
+                <p class="hero-description">Passionate Computer Science graduate with a perfect GPA from the University of Illinois Chicago’s Master’s program. Experienced in AI research, database systems, and full-stack development, with a strong focus on innovative technology solutions and data-driven visualization.</p>
+
+                <div class="hero-ctas">
+                    <button id="view-work" class="btn btn-primary">View My Work <span class="chev">↓</span></button>
+                    <a href="#contact" class="btn btn-outline">Get In Touch</a>
+                    <a href="assets/RashmikaN_Resume.pdf" class="btn btn-link" target="_blank" rel="noopener">Resume</a>
+                </div>
+
+                <div class="hero-socials">
+                    <a href="https://github.com/RashmikaN" target="_blank" rel="noopener" class="social">
+                        <i class="fa-brands fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/rashmika-nattam/" target="_blank" rel="noopener" class="social">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="mailto:rashmika1913@gmail.com" class="social">
+                        <i class="fa-regular fa-envelope"></i>
+                        <span>Email</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container about-inner">
+            <h2 class="section-title">About Me</h2>
+            <div class="underline" aria-hidden="true"></div>
+            <p class="section-lead">Driven by curiosity and powered by data, I'm passionate about leveraging technology to solve real-world problems across diverse domains and industries.</p>
+
+            <div class="about-grid">
+                <div class="about-left">
+                    <h3>My Journey</h3>
+                    <p>As a Computer Science graduate with a perfect GPA from the University of Illinois at Chicago, I've built a career at the intersection of technology, education, and innovation. I'm passionate about developing practical solutions that solve real-world problems while making technology accessible and understandable for everyone.</p>
+
+                    <p>My work spans full-stack development, data science, and user-centered design—where I focus on creating tools that make a tangible difference. Whether building web applications, analyzing complex datasets, or designing intuitive interfaces, I approach every project with a commitment to quality, user experience, and technical excellence.</p>
+
+                    <p>I'm also dedicated to mentoring and teaching, having helped hundreds of students master programming, databases, and software engineering. This experience strengthened my ability to communicate complex ideas clearly and collaborate effectively across diverse teams.</p>
+                </div>
+
+                <div class="about-right">
+                    <h3>Education</h3>
+
+                    <div class="edu-cards">
+                        <article class="edu-card">
+                            <div class="edu-accent"></div>
+                            <div class="edu-content">
+                                <div class="edu-meta">
+                                    <span class="edu-level">Masters</span>
+                                    <span class="gpa">GPA: 4.0/4.0</span>
+                                </div>
+                                <h4 class="edu-title">Master of Science in Computer Science</h4>
+                                <div class="edu-sub">
+                                    <span class="edu-school"><i class="fa-regular fa-circle-dot"></i> University of Illinois at Chicago</span>
+                                    <span class="edu-date"><i class="fa-regular fa-calendar"></i> May 2025</span>
+                                </div>
+                                <div class="edu-key">Key Coursework:</div>
+                                <div class="chips">
+                                    <span class="chip">Artificial Intelligence 1</span>
+                                    <span class="chip">Database Systems</span>
+                                    <span class="chip">Human-computer Interactions</span>
+                                    <span class="chip">Big Data Mining</span>
+                                    <span class="chip">Visualization and Visual Analytics</span>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="edu-card">
+                            <div class="edu-accent"></div>
+                            <div class="edu-content">
+                                <div class="edu-meta">
+                                    <span class="edu-level">Bachelors</span>
+                                    <span class="gpa">GPA: 3.56/4.0</span>
+                                </div>
+                                <h4 class="edu-title">Bachelor of Technology in Computer Science and Engineering</h4>
+                                <div class="edu-sub">
+                                    <span class="edu-school"><i class="fa-regular fa-circle-dot"></i> Gayatri Vidya Parishad College of Engineering</span>
+                                    <span class="edu-date"><i class="fa-regular fa-calendar"></i> Apr 2023</span>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Key Highlights subsection within About -->
+        </div>
+    </section>
+
+    <section id="experience" class="experience-section">
+        <div class="container experience-inner">
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="underline" aria-hidden="true"></div>
+            <p class="section-lead">A diverse journey spanning research, teaching, and industry experience in computer science and technology</p>
+
+            <div class="experience-timeline">
+                <!-- Connex AI LLC -->
+                <article class="exp-card exp-card--orange">
+                    <div class="exp-accent"></div>
+                    <div class="exp-content">
+                        <div class="exp-header">
+                            <h3 class="exp-title">Jr. Python Developer</h3>
+                            <span class="exp-tag exp-tag--industry">Industry</span>
+                        </div>
+                        <div class="exp-org">
+                            <i class="fa-regular fa-building"></i> Connex AI LLC
+                        </div>
+                        <div class="exp-meta">
+                            <span class="exp-location"><i class="fa-solid fa-location-dot"></i> Remote</span>
+                            <span class="exp-date"><i class="fa-regular fa-calendar"></i> Oct 2025 - Present</span>
+                        </div>
+                        <div class="exp-responsibilities">
+                            <strong>Key Responsibilities &amp; Achievements:</strong>
+                            <ul>
+                                <li>Developed and maintained full-stack web applications using modern technologies</li>
+                                <li>Collaborated with cross-functional teams to deliver scalable solutions</li>
+                                <li>Implemented responsive UI components and optimized backend APIs for better performance</li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Research Intern -->
+                <article class="exp-card exp-card--blue">
+                    <div class="exp-accent"></div>
+                    <div class="exp-content">
+                        <div class="exp-header">
+                            <h3 class="exp-title">Research Intern</h3>
+                            <span class="exp-tag exp-tag--research">Research</span>
+                        </div>
+                        <div class="exp-org">
+                            <i class="fa-regular fa-building"></i> University of Illinois at Chicago
+                        </div>
+                        <div class="exp-meta">
+                            <span class="exp-location"><i class="fa-solid fa-location-dot"></i> Chicago, IL</span>
+                            <span class="exp-date"><i class="fa-regular fa-calendar"></i> Aug 2025 - Present</span>
+                        </div>
+                        <div class="exp-responsibilities">
+                            <strong>Key Responsibilities &amp; Achievements:</strong>
+                            <ul>
+                                <li>Applied reflexive thematic analysis and topic modeling to interviews from 21 older adults, leveraging NLP to uncover behavioral and adoption patterns</li>
+                                <li>Collaborated with a 6-member team to generate recommendations improving digital engagement among older adults</li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Graduate Teaching Assistant -->
+                <article class="exp-card exp-card--green">
+                    <div class="exp-accent"></div>
+                    <div class="exp-content">
+                        <div class="exp-header">
+                            <h3 class="exp-title">Graduate Teaching Assistant</h3>
+                            <span class="exp-tag exp-tag--academic">Academic</span>
+                        </div>
+                        <div class="exp-org">
+                            <i class="fa-regular fa-building"></i> University of Illinois at Chicago
+                        </div>
+                        <div class="exp-meta">
+                            <span class="exp-location"><i class="fa-solid fa-location-dot"></i> Chicago, IL</span>
+                            <span class="exp-date"><i class="fa-regular fa-calendar"></i> Aug 2024 - May 2025</span>
+                        </div>
+                        <div class="exp-responsibilities">
+                            <strong>Key Responsibilities &amp; Achievements:</strong>
+                            <ul>
+                                <li>Supported instruction for CS 211: Programming Practicum and CS 480: Database Systems</li>
+                                <li>Assisted over 250 students, improving comprehension in C, C++, SQL, and API integration</li>
+                                <li>Streamlined grading processes, reducing turnaround time by ~20%</li>
+                                <li>Analyzed student queries to optimize instructional materials, leading to ~15% performance improvement</li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Ignite Trainee Internship -->
+                <article class="exp-card exp-card--purple">
+                    <div class="exp-accent"></div>
+                    <div class="exp-content">
+                        <div class="exp-header">
+                            <h3 class="exp-title">Ignite Trainee Internship</h3>
+                            <span class="exp-tag exp-tag--industry">Industry</span>
+                        </div>
+                        <div class="exp-org">
+                            <i class="fa-regular fa-building"></i> LTIMindtree
+                        </div>
+                        <div class="exp-meta">
+                            <span class="exp-location"><i class="fa-solid fa-location-dot"></i> Visakhapatnam, India</span>
+                            <span class="exp-date"><i class="fa-regular fa-calendar"></i> Feb 2023 - May 2023</span>
+                        </div>
+                        <div class="exp-responsibilities">
+                            <strong>Key Responsibilities &amp; Achievements:</strong>
+                            <ul>
+                                <li>Showcased proficiency in Java, SQL, and JavaScript through rigorous coursework</li>
+                                <li>Ranked in top 10% of performers for delivering innovative code solutions</li>
+                                <li>Demonstrated expertise in programming, database management, and software design</li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- S.S.Engineers Internship-->
+                <article class="exp-card exp-card--red">
+                    <div class="exp-accent"></div>
+                    <div class="exp-content">
+                        <div class="exp-header">
+                            <h3 class="exp-title">Data Analytics Intern</h3>
+                            <span class="exp-tag exp-tag--industry">Industry</span>
+                        </div>
+                        <div class="exp-org">
+                            <i class="fa-regular fa-building"></i> S.S.Engineers
+                        </div>
+                        <div class="exp-meta">
+                            <span class="exp-location"><i class="fa-solid fa-location-dot"></i> Hybrid</span>
+                            <span class="exp-date"><i class="fa-regular fa-calendar"></i> Jul 2021 - Jan 2023</span>
+                        </div>
+                        <div class="exp-responsibilities">
+                            <strong>Key Responsibilities &amp; Achievements:</strong>
+                            <ul>
+                                <li>Analyzed production and logistics data with Excel and Python, boosting on-time deliveries by 15% and reducing defects by 12%</li>
+                                <li>Partnered cross-functionally to implement data-driven improvements, enhancing inventory accuracy and fulfillment speed.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="skills" class="skills-section">
+        <div class="container skills-inner">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="underline" aria-hidden="true"></div>
+            
+            <div class="skills-grid">
+                <!-- Programming Languages -->
+                <article class="skill-card">
+                    <div class="skill-icon" aria-hidden="true">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <h3 class="skill-title">Programming Languages</h3>
+                    <div class="skill-tags">
+                        <span class="tag tag-blue">Python</span>
+                        <span class="tag tag-blue">SQL</span>
+                        <span class="tag tag-blue">Java</span>
+                        <span class="tag tag-blue">C</span>
+                        <span class="tag tag-blue">C++</span>
+                        <span class="tag tag-blue">JavaScript</span>
+                    </div>
+                </article>
+
+                <!-- Web Technologies -->
+                <article class="skill-card">
+                    <div class="skill-icon" aria-hidden="true">
+                        <i class="fa-solid fa-globe"></i>
+                    </div>
+                    <h3 class="skill-title">Web Technologies</h3>
+                    <div class="skill-tags">
+                        <span class="tag tag-green">HTML</span>
+                        <span class="tag tag-green">CSS</span>
+                        <span class="tag tag-green">Angular</span>
+                        <span class="tag tag-green">React.js</span>
+                        <span class="tag tag-green">WordPress</span>
+                        <span class="tag tag-green">MySQL</span>
+                        <span class="tag tag-green">MongoDB</span>
+                    </div>
+                </article>
+
+                <!-- Databases -->
+                <article class="skill-card">
+                    <div class="skill-icon" aria-hidden="true">
+                        <i class="fa-solid fa-database"></i>
+                    </div>
+                    <h3 class="skill-title">Databases</h3>
+                    <div class="skill-tags">
+                        <span class="tag tag-purple">MySQL</span>
+                        <span class="tag tag-purple">MongoDB</span>
+                        <span class="tag tag-purple">SQL Server</span>
+                    </div>
+                </article>
+
+                <!-- Tools & Platforms -->
+                <article class="skill-card">
+                    <div class="skill-icon" aria-hidden="true">
+                        <i class="fa-solid fa-wrench"></i>
+                    </div>
+                    <h3 class="skill-title">Tools &amp; Platforms</h3>
+                    <div class="skill-tags">
+                        <span class="tag tag-orange">Google Workspace</span>
+                        <span class="tag tag-orange">Docker</span>
+                        <span class="tag tag-orange">GCP</span>
+                        <span class="tag tag-orange">AWS</span>
+                        <span class="tag tag-orange">Git</span>
+                        <span class="tag tag-orange">Figma</span>
+                        <span class="tag tag-orange">.NET</span>
+                        <span class="tag tag-orange">PowerBI</span>
+                    </div>
+                </article>
+
+                <!-- Machine Learning -->
+                <article class="skill-card">
+                    <div class="skill-icon" aria-hidden="true">
+                        <i class="fa-solid fa-brain"></i>
+                    </div>
+                    <h3 class="skill-title">Machine Learning</h3>
+                    <div class="skill-tags">
+                        <span class="tag tag-red">TensorFlow</span>
+                        <span class="tag tag-red">NLTK</span>
+                        <span class="tag tag-red">Scikit-learn</span>
+                        <span class="tag tag-red">Data Visualization</span>
+                    </div>
+                </article>
+
+                <!-- Frameworks -->
+                <article class="skill-card">
+                    <div class="skill-icon" aria-hidden="true">
+                        <i class="fa-solid fa-cloud"></i>
+                    </div>
+                    <h3 class="skill-title">Frameworks</h3>
+                    <div class="skill-tags">
+                        <span class="tag tag-indigo">React.js</span>
+                        <span class="tag tag-indigo">Angular</span>
+                        <span class="tag tag-indigo">.NET</span>
+                        <span class="tag tag-indigo">TensorFlow</span>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="project" class="project-section">
+        <div class="container project-inner">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="underline" aria-hidden="true"></div>
+            <p class="section-lead">A showcase of my technical projects</p>
+
+            <!-- Featured project 1 - Chicago Crashes (image left, content right) -->
+            <article class="project-card project-featured">
+                <div class="project-media">
+                    <img src="assets/projects/424Vis.png" alt="Chicago Crashes Visualization dashboard screenshot">
+                </div>
+                <div class="project-content">
+                    <div class="project-meta"> <small><i class="fa-solid fa-chart-simple"></i> Data Visualization</small></div>
+                    <h3 class="project-title">Chicago Traffic Visualization</h3>
+                    <p class="project-desc">Built comprehensive traffic safety analytics platform processing over 1.8 million crash records. Implemented advanced filtering algorithms and interactive dashboards to provide actionable insights for public safety analysis.</p>
+
+                    <div class="project-features">
+                        <strong>Key Features:</strong>
+                        <ul>
+                            <li>Processing 1.8M+ crash records with optimized algorithms</li>
+                            <li>Interactive dashboards with real-time filtering</li>
+                            <li>Containerized deployment for scalability</li>
+                            <li>Cross-functional collaboration for public safety insights</li>
+                        </ul>
+                    </div>
+
+                    <div class="project-tags">
+                        <span class="tag tag-blue">Python</span>
+                        <span class="tag tag-blue">Curio</span>
+                        <span class="tag tag-blue">Docker</span>
+                        <span class="tag tag-blue">Data Visualization</span>
+                    </div>
+
+                    <div class="project-actions">
+                        <button class="btn btn-code" data-url="https://github.com/RashmikaN/CS424-Chicago-Traffic-Visualization" aria-label="View code on GitHub for Chicago Traffic Visualization">
+                            <i class="fa-brands fa-github" aria-hidden="true"></i>
+                            <span>View Code</span>
+                        </button>
+                        <!-- <button class="btn btn-outline btn-demo" data-url="#" aria-label="Open live demo for Chicago Traffic Visualization">
+                            <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+                            <span>Live Demo</span>
+                        </button> -->
+                    </div>
+                </div>
+            </article>
+
+            <!-- Featured project 2 - Customer Churn Analysis (image right, content left) -->
+            <article class="project-card project-featured project-alt">
+                <div class="project-content">
+                    <div class="project-meta"><small><i class="fa-solid fa-robot"></i> Machine Learning</small></div>
+                    <h3 class="project-title">Customer Churn Analysis</h3>
+                    <p class="project-desc">Directed a customer churn analysis project utilizing multiple machine learning algorithms. Implemented automated model selection and created an intuitive dashboard interface for business stakeholders.</p>
+
+                    <div class="project-features">
+                        <strong>Key Features:</strong>
+                        <ul>
+                            <li>Multiple ML models: Logistic Regression, Random Forest, XGBoost</li>
+                            <li>Automated model selection achieving ~84% accuracy</li>
+                            <li>Interactive dashboard for business insights</li>
+                            <li>Team leadership and project management</li>
+                        </ul>
+                    </div>
+
+                    <div class="project-tags">
+                        <span class="tag tag-blue">Python</span>
+                        <span class="tag tag-red">Machine Learning</span>
+                        <span class="tag tag-green">Data Analysis</span>
+                        <span class="tag tag-indigo">Visualization</span>
+                    </div>
+
+                    <div class="project-actions">
+                        <button class="btn btn-code" data-url="https://github.com/RashmikaN/churn-analysis" aria-label="View code on GitHub for Customer Churn Analysis">
+                            <i class="fa-brands fa-github" aria-hidden="true"></i>
+                            <span>View Code</span>
+                        </button>
+                        <!-- <button class="btn btn-outline btn-demo" data-url="#" aria-label="Open live demo for Customer Churn Analysis">
+                            <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+                            <span>Live Demo</span>
+                        </button> -->
+                    </div>
+                </div>
+                <div class="project-media">
+                    <img src="assets/projects/customerChurn.png" alt="Customer churn dashboard screenshot">
+                </div>
+            </article>
+
+            <!-- Other projects grid -->
+            <div class="other-projects">
+                <h3 class="section-small-title">Other Projects</h3>
+
+                <!-- Slider wrapper: supports any number of slides; arrows appear if more slides than view -->
+                <div class="other-slider" aria-roledescription="carousel">
+                    <button class="slider-btn slider-prev" aria-label="Previous project">
+                        <i class="fa-solid fa-chevron-left" aria-hidden="true"></i>
+                    </button>
+
+                    <div class="slider-track-wrapper">
+                        <div class="slider-track">
+                                <article class="slide">
+                                <div class="other-card">
+                                    <div class="other-media"><img src="assets/projects/medco.jpeg" alt="MedCo Health Management App"></div>
+                                    <div class="other-body">
+                                        <h4>MedCo </h4>
+                                        <p class="other-desc">React-based web app helping patients with chronic conditions manage their health. Secure medical report uploads, simplified test result explanations, visual health trend tracking, and personalized diet and exercise recommendations.</p>
+                                        <div class="project-tags">
+                                            <span class="tag tag-blue">React.js</span>
+                                            <span class="tag tag-green">Health Tech</span>
+                                            <span class="tag tag-orange">Data Visualization</span>
+                                        </div>
+                                        <div class="project-actions">
+                                            <button class="btn btn-code" data-url="https://github.com/RashmikaN/medco" aria-label="View code for MedCo">
+                                                <i class="fa-brands fa-github" aria-hidden="true"></i>
+                                                <span>Code</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="slide">
+                                <div class="other-card">
+                                    <div class="other-media"><img src="assets/projects/covid19.png" alt="COVID-19 Small Business Impact Analysis"></div>
+                                    <div class="other-body">
+                                        <h4>COVID-19 Small Business Impact Analysis </h4>
+                                        <p class="other-desc">Analysis of 150,000+ loan approval records with ML prediction models</p>
+                                        <div class="project-tags">
+                                            <span class="tag tag-blue">Python</span>
+                                            <span class="tag tag-red">Machine Learning</span>
+                                            <span class="tag tag-green">Data Analysis</span>
+                                        </div>
+                                        <div class="project-actions">
+                                            <button class="btn btn-outline btn-demo" data-url="#" aria-label="Open demo for COVID-19 Small Business Impact Analysis">
+                                                <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+                                                <span>Demo</span>
+                                            </button>
+                                            <button class="btn btn-code" data-url="https://github.com/RashmikaN/Pandemic_Patterns" aria-label="View code for COVID-19 Small Business Impact Analysis">
+                                                <i class="fa-brands fa-github" aria-hidden="true"></i>
+                                                <span>Code</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <!-- Classic Novels Text Analysis -->
+                            <article class="slide">
+                                <div class="other-card">
+                                    <div class="other-media"><img src="assets/projects/text-analysis.png" alt="Classic Novels Text Analysis"></div>
+                                    <div class="other-body">
+                                        <h4>Classic Novels Text Analysis </h4>
+                                        <p class="other-desc">Python text analysis pipeline leveraging web scraping, NLP, and visualization to extract insights from classic novels including word frequency analysis and POS tagging.</p>
+                                        <div class="project-tags">
+                                            <span class="tag tag-blue">Python</span>
+                                            <span class="tag tag-red">NLP</span>
+                                            <span class="tag tag-indigo">BeautifulSoup</span>
+                                            <span class="tag tag-orange">Data Visualization</span>
+                                        </div>
+                                        <div class="project-actions">
+                                            <button class="btn btn-code" data-url="https://github.com/RashmikaN/Classic-Novels-Text-Analysis" aria-label="View code for Classic Novels Text Analysis">
+                                                <i class="fa-brands fa-github" aria-hidden="true"></i>
+                                                <span>Code</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <!-- Connect 4 Project -->
+                            <article class="slide">
+                                <div class="other-card">
+                                    <div class="other-media">
+                                        <img src="assets/projects/c4proj.jpeg" alt="Connect 4 Game Screenshot">
+                                    </div>
+                                    <div class="other-body">
+                                        <h4>Connect 4 Game </h4>
+                                        <p class="other-desc">Interactive two-player Connect 4 game built with Python, featuring Pygame graphics and game logic. Includes player name input, win detection, and a celebratory end screen. </p>
+                                        <div class="project-tags">
+                                            <span class="tag tag-blue">Python</span>
+                                            <span class="tag tag-green">Pygame</span>
+                                            <span class="tag tag-orange">NumPy</span>
+                                        </div>
+                                        <div class="project-actions">
+                                            <button class="btn btn-code" data-url="https://github.com/RashmikaN/Connect4-Game" aria-label="View code for Connect 4 Game">
+                                                <i class="fa-brands fa-github" aria-hidden="true"></i>
+                                                <span>Code</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <!-- Gamification in Language Learning Research -->
+                            <article class="slide">
+                                <div class="other-card">
+                                    <div class="other-media"><img src="assets/projects/gamification.jpeg" alt="Gamification in Language Learning study"></div>
+                                    <div class="other-body">
+                                        <h4>Gamification in Language Learning: Duolingo vs Babbel </h4>
+                                        <p class="other-desc">Mixed-methods comparative study of gamification elements across language learning platforms. Led 4-member team analyzing impact on user motivation, engagement, and learning outcomes.</p>
+                                        <div class="project-tags">
+                                            <span class="tag tag-orange">UX Research</span>
+                                            <span class="tag tag-green">Data Analysis</span>
+                                            <span class="tag tag-red">EFA</span>
+                                            <span class="tag tag-blue">User Interviews</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <!-- Smart CCTV Project -->
+                            <article class="slide">
+                                <div class="other-card">
+                                    <div class="other-media"><img src="assets/projects/cctv.png" alt="Smart CCTV System"></div>
+                                    <div class="other-body">
+                                        <h4>Smart CCTV System </h4>
+                                        <p class="other-desc">Advanced surveillance system leveraging computer vision for real-time object detection, facial recognition, motion tracking, and video analytics with instant security alerts.</p>
+                                        <div class="project-tags">
+                                            <span class="tag tag-blue">Python</span>
+                                            <span class="tag tag-red">Computer Vision</span>
+                                            <span class="tag tag-green">Image Processing</span>
+                                            <span class="tag tag-orange">OpenCV</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                            
+                            <!-- Duplicate slides or add more project slides as needed. Slider works with any number of .slide elements -->
+                        </div>
+                    </div>
+
+                    <!-- pagination dots (filled by JS) -->
+                    <div class="slider-dots" aria-hidden="true"></div>
+
+                    <button class="slider-btn slider-next" aria-label="Next project">
+                        <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact-section">
+        <div class="container contact-inner">
+            <h2 class="section-title">Let's Connect</h2>
+            <div class="underline" aria-hidden="true"></div>
+            <p class="section-lead">I'm always interested in discussing new opportunities, research collaborations, or just having a conversation about technology and innovation.</p>
+
+            <div class="contact-grid">
+                <div class="contact-left">
+                    <h3 class="contact-heading">Get In Touch</h3>
+                    
+                    <div class="contact-cards">
+                        <button class="contact-card" data-action="email" aria-label="Email rashmika1913@gmail.com">
+                            <span class="card-icon card-icon--blue"><i class="fa-regular fa-envelope"></i></span>
+                            <div class="card-body">
+                                <div class="card-title">Email</div>
+                                <div class="card-value">rashmika1913@gmail.com</div>
+                            </div>
+                        </button>
+
+                        <button class="contact-card" data-action="phone" aria-label="Call 8179070544">
+                            <span class="card-icon card-icon--green"><i class="fa-solid fa-phone"></i></span>
+                            <div class="card-body">
+                                <div class="card-title">Phone</div>
+                                <div class="card-value">8179070544</div>
+                            </div>
+                        </button>
+                    </div>
+
+                    <div class="social-connect">
+                        <div class="social-label">Connect on Social Media</div>
+                        <div class="social-list">
+                            <a class="social-pill" href="https://github.com/RashmikaN" target="_blank" rel="noopener" aria-label="GitHub">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                            <a class="social-pill" href="https://www.linkedin.com/in/rashmika-nattam/" target="_blank" rel="noopener" aria-label="LinkedIn">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                            <a class="social-pill" href="mailto:rashmika1913@gmail.com" aria-label="Email">
+                                <i class="fa-regular fa-envelope"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SITE FOOTER -->
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div class="footer-col footer-about">
+                <h4>Rashmika Nattam</h4>
+                <p>Computer Science graduate passionate about technology, research, and creating innovative, inclusive digital experiences.</p>
+            </div>
+
+            <!-- <div class="footer-col footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                </ul>
+            </div> -->
+
+            <div class="footer-col footer-contact">
+                <h4>Get In Touch</h4>
+                <p><a href="mailto:rashmika1913@gmail.com">rashmika1913@gmail.com</a></p>
+                <p><a href="tel:8179070544">8179070544</a></p>
+            </div>
+        </div>
+    </footer>
+    <!-- Back to top button -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top" title="Back to top">
+        <i class="fa-solid fa-chevron-up" aria-hidden="true"></i>
+    </button>
+    <!-- Certificate preview modal -->
+    <div id="cert-modal" class="modal" aria-hidden="true" role="dialog" aria-label="Certificate preview">
+        <div class="modal-overlay" data-action="close"></div>
+        <div class="modal-inner">
+            <button class="modal-close" aria-label="Close preview" data-action="close">×</button>
+            <button class="modal-prev" aria-label="Previous certificate"><i class="fa-solid fa-chevron-left"></i></button>
+            <div class="modal-body">
+                <div class="modal-content">
+                    <img id="cert-modal-img" alt="Certificate preview image" />
+                    <iframe id="cert-modal-iframe" title="Certificate preview" frameborder="0"></iframe>
+                </div>
+                <div class="modal-caption" id="cert-modal-caption"></div>
+            </div>
+            <button class="modal-next" aria-label="Next certificate"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
